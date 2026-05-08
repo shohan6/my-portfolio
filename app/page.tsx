@@ -249,7 +249,7 @@ export default function Portfolio() {
             target="_blank"
             className="text-blue-500 mt-3 inline-block"
           >
-            DOI: 10.1038/s41598-023-38607-7
+            DOI: 10.1016/j.ins.2018.09.040
           </a>
         </div>
 
@@ -263,11 +263,11 @@ export default function Portfolio() {
           </p>
 
           <a
-            href="https://doi.org/10.1038/s41598-023-38607-7"
+            href="https://doi.org/10.1109/ICME.2017.8019538"
             target="_blank"
             className="text-blue-500 mt-3 inline-block"
           >
-            DOI: 10.1038/s41598-023-38607-7
+            DOI: 10.1109/ICME.2017.8019538
           </a>
         </div>        
 
