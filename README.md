@@ -17,7 +17,7 @@ I am an AI/ML researcher and engineer specializing in:
 - Contactless Cardiovascular Monitoring
 - Multimodal Physiological Sensing
 
-My work focuses on building machine learning systems for healthcare applications using video-based and physiological signal analysis techniques including SCG, rPPG, ECG, and multimodal fusion models.
+My work focuses on building machine learning systems for healthcare applications using video-based and physiological signal analysis techniques including SCG, rPPG, ECG, and multimodal system.
 
 ---
 
@@ -27,10 +27,10 @@ My work focuses on building machine learning systems for healthcare applications
 Deep learning framework for extracting seismocardiographic (SCG) signals from ordinary chest videos for contactless cardiac monitoring.
 
 ### Remote PPG Spatial Modeling
-10×10 grid-based remote photoplethysmography (rPPG) analysis using facial and neck videos.
+Grid-based remote photoplethysmography (rPPG) analysis using neck videos.
 
 ### Neonatal SCG Analysis
-Machine learning and signal processing framework for neonatal cardiovascular vibration analysis.
+Signal processing framework for neonatal cardiovascular vibration analysis.
 
 ---
 
