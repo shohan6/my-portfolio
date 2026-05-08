@@ -3,7 +3,7 @@
 Personal portfolio website showcasing research, machine learning projects, and engineering work in computer vision, biomedical AI, and physiological signal processing.
 
 ## 🌐 Live Website
-[Portfolio Website](https://your-netlify-link.netlify.app)
+[Portfolio Website](https://mmr-portfolio.netlify.app)
 
 ---
 
@@ -70,4 +70,4 @@ DOI: https://doi.org/10.1038/s44325-024-00034-6
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ml-portfolio.git
+git clone https://github.com/shohan6/my-portfolio.git
