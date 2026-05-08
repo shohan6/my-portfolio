@@ -29,9 +29,6 @@ Deep learning framework for extracting seismocardiographic (SCG) signals from or
 ### Remote PPG Spatial Modeling
 10×10 grid-based remote photoplethysmography (rPPG) analysis using facial and neck videos.
 
-### Multimodal Cardiac AI Fusion
-Fusion of ECG, PPG, and SCG signals using machine learning for robust cardiovascular assessment.
-
 ### Neonatal SCG Analysis
 Machine learning and signal processing framework for neonatal cardiovascular vibration analysis.
 
