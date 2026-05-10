@@ -391,11 +391,15 @@ export default function Portfolio() {
 
       {/* CONTACT */}
       <section id="contact" className="px-6 py-24 max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl font-semibold mb-6">Let's Work Together</h2>
+        <h2 className="text-3xl font-semibold mb-6">Contact</h2>
 
         <p className="text-sm mb-8">
-          Open to AI/ML Engineer, Research Scientist, and Applied Scientist roles
-          in Computer Vision and Healthcare AI.
+          Email:{" "}
+          <span className="font-medium">
+            shohan6{" "}
+            <span className="hidden">REMOVE_THIS</span>
+            [at] yahoo [dot] com
+          </span>
         </p>
 
         <div className="flex flex-col md:flex-row justify-center gap-4 items-center">
