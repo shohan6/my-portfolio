@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 
+
 export default function Portfolio() {
   const [darkMode, setDarkMode] = useState(false);
 
@@ -275,52 +276,57 @@ export default function Portfolio() {
     </section>
 
       {/* CONTACT */}
-<section id="contact" className="px-6 py-24 max-w-6xl mx-auto text-center">
-  <h2 className="text-3xl font-semibold mb-6">Let’s Work Together</h2>
+      <section id="contact" className="px-6 py-24 max-w-6xl mx-auto text-center">
+        <h2 className="text-3xl font-semibold mb-6">Let’s Work Together</h2>
 
-  <p className="text-sm mb-8">
-    Open to AI/ML Engineer, Research Scientist, and Applied Scientist roles in Computer Vision and Healthcare AI.
-  </p>
+        <p className="text-sm mb-8">
+          Open to AI/ML Engineer, Research Scientist, and Applied Scientist roles
+          in Computer Vision and Healthcare AI.
+        </p>
 
-  <div className="flex flex-col md:flex-row justify-center gap-4 items-center">
+        <div className="flex flex-col md:flex-row justify-center gap-4 items-center">
 
-    {/* EMAIL */}
-    <a
-      href="mailto:shohan6@yahoo.com"
-      className={`px-5 py-2 rounded-full border ${card}`}
-    >
-      Email
-    </a>
+          {/* EMAIL */}
+          <a
+            href="mailto:shohan6@yahoo.com"
+            className={`flex items-center gap-2 px-5 py-2 rounded-full border hover:scale-105 transition ${card}`}
+          >
+            <img src="/email.svg" className="w-5 h-5" alt="Email" />
+            Email
+          </a>
 
-    {/* LINKEDIN */}
-    <a
-      href="https://www.linkedin.com/in/mohammad-muntasir-rahman-a7315923/"
-      target="_blank"
-      className={`px-5 py-2 rounded-full border ${card}`}
-    >
-      LinkedIn
-    </a>
+          {/* LINKEDIN */}
+          <a
+            href="https://www.linkedin.com/in/mohammad-muntasir-rahman-a7315923/"
+            target="_blank"
+            className={`flex items-center gap-2 px-5 py-2 rounded-full border hover:scale-105 transition ${card}`}
+          >
+            <img src="/InBug-Black.png" className="w-5 h-5" alt="LinkedIn" />
+            LinkedIn
+          </a>
 
-    {/* GITHUB */}
-    <a
-      href="https://github.com/shohan6"
-      target="_blank"
-      className={`px-5 py-2 rounded-full border ${card}`}
-    >
-      GitHub
-    </a>
+          {/* GITHUB */}
+          <a
+            href="https://github.com/shohan6"
+            target="_blank"
+            className={`flex items-center gap-2 px-5 py-2 rounded-full border hover:scale-105 transition ${card}`}
+          >
+            <img src="/github.svg" className="w-5 h-5" alt="GitHub" />
+            GitHub
+          </a>
 
-    {/* GOOGLE SCHOLAR */}
-    <a
-      href="https://scholar.google.com/citations?user=by41XR8AAAAJ&hl=en"
-      target="_blank"
-      className={`px-5 py-2 rounded-full border ${card}`}
-    >
-      Google Scholar
-    </a>
+          {/* GOOGLE SCHOLAR */}
+          <a
+            href="https://scholar.google.com/citations?user=by41XR8AAAAJ&hl=en"
+            target="_blank"
+            className={`flex items-center gap-2 px-5 py-2 rounded-full border hover:scale-105 transition ${card}`}
+          >
+            <img src="/googlescholar.svg" className="w-5 h-5" alt="Google Scholar" />
+            Google Scholar
+          </a>
 
-  </div>
-</section>
+        </div>
+      </section>
 
       {/* FOOTER */}
       <footer className="text-center py-10 text-sm opacity-60">
